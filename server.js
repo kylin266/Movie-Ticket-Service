@@ -27,6 +27,7 @@ require('./routes/movie.routes')(app);
 require('./routes/movie_playtime.routes')(app);
 require('./routes/seat.routes')(app);
 require('./routes/ticket.routes')(app);
+require('./routes/payment.routes')(app);
 app.get("/", (req, res) => {
   res.json({ message: "ok" });
 });

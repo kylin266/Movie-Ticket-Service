@@ -10,9 +10,9 @@ module.exports = function (app) {
     next();
   });
   app.post(
-    "/api/payments/create?ticketId=?",
+    "/api/payments/create",
     verifyToken
     ,
-    controller.getHallSeats
+    controller.createPayment
   );
 };
