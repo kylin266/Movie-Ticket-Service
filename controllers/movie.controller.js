@@ -13,7 +13,7 @@ exports.getAllMovies = async (req,res) => {
 
 exports.getMoviesByName = async (req,res) => {
     const {title} = req.query;
-    await Movie.findOne({
+    await Movie.findAll({
         where:{
             title:  {
                 [Op.like]: `%${title}%`

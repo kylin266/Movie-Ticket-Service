@@ -1,7 +1,7 @@
 {
-  "name": "movie-ticket-service",
+  "name": "micro-boxoffice-services",
   "version": "1.0.0",
-  "description": "University Project 2022",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000",
@@ -24,14 +24,6 @@
     "mysql2": "^2.3.3",
     "sequelize": "^6.19.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kylin266/Movie-Ticket-Service.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kylin266/Movie-Ticket-Service/issues"
-  },
-  "homepage": "https://github.com/kylin266/Movie-Ticket-Service#readme"
+  "license": "ISC"
 }

@@ -15,4 +15,10 @@ module.exports = function (app) {
     ,
     controller.getMoviesPlayTime
   );
+  app.get(
+    "/api/movie_playtimes/:id",
+    verifyToken
+    ,
+    controller.getMoviePlayTimeDetail
+  );
 };
