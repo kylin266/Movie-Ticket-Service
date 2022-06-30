@@ -1,6 +1,6 @@
 const mailgun = require("mailgun-js");
 const DOMAIN = 'ql6625.live';
-const mg = mailgun({apiKey: '09774f605413053c3ae4ab3a90994230-77985560-178da071', domain: DOMAIN});
+const mg = mailgun({apiKey: '588ff89e602bcbe9a9f3c90d2f35abec-77985560-58fd725d', domain: DOMAIN});
 const data = {
 	from: 'postmaster@ql6625.live',
 	to: 'tuanto002@gmail.com',
